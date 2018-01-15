@@ -5,6 +5,7 @@ background-color: white;
 color: black;
 font-size: 20px;
 font-family: "Lucida Grande", Verdana,Arial, Helvetica, sans-serif;
+	background-image: url(../picture/pic/BG.png);
 }
 h1, th {
 font-family: Georgia, "Times New Roman",Times, serif;
@@ -15,6 +16,13 @@ font-size: 28px;
 table {
 border-collapse: collapse;
 margin:auto;
+background-image: url(../picture/pic/B1.png);
+}
+#table1 {
+	float: float;
+}
+#table2 {
+	float: float;
 }
 th, td {
 padding: 0px;
@@ -36,7 +44,7 @@ button {
 	text-align: center;
 	width: 100px;
 	height: 100px;
-	background-color:darkgrey
+    background: transparent;
 }
 button:hover {
 	background-color:aquamarine;
